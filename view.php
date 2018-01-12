@@ -32,11 +32,11 @@ $result = mysqli_query($mysqli, "SELECT * FROM products WHERE login_id=" . $_SES
 
         <table class="table" width='100%' border=0>
             <tr bgcolor='#CCCCCC'>
-                <td width="25%">Nome</td>
-                <td>Código</td>
-                <td>Descrição</td>
-                <td>Arquivo</td>
-                <td>Atualizar</td>
+                <td width="25%"><b>Nome</b></td>
+                <td><b>Código</b></td>
+                <td><b>Descrição</b></td>
+                <td><b>Arquivo</b></td>
+                <td><b>Atualizar</b></td>
             </tr>
 
             <?php
